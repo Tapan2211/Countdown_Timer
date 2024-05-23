@@ -1,0 +1,51 @@
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.message {
+    color: #ee10ff;
+    font-weight: 700;
+}
+
+.time_over_message {
+    margin-top: 20px;
+}
+
+.time_over_message p {
+    font-size: 1.5em;
+    color: #ee10ff;
+    font-weight: 700;
+}
+
+.countdown button:hover {
+    background: linear-gradient(to right, #ee10ff, #3cb5ff);
+}
+
+
+.time_over_message button {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px #fff solid;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.time_over_message button:hover {
+    background: linear-gradient(to right, #ee10ff, #3cb5ff);
+}

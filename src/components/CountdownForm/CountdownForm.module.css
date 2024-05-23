@@ -1,0 +1,46 @@
+.countdown_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.input {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.countdown_form label {
+    margin: 10px 0;
+}
+
+.countdown_form input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.countdown_form button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.countdown_form button:hover {
+    background: linear-gradient(to right, #ee10ff, #3cb5ff);
+}
+
+.error_message {
+    color: #ee10ff;
+    font-weight: 700;
+}
+
+.button {
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
