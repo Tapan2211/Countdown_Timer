@@ -44,7 +44,7 @@ const CountdownForm = ({ setTargetDate }) => {
                 required
             />
             {error && <p className={styles.error_message}>{error}</p>}
-            <button className={styles.button} type="submit">Start Timer</button>
+            <button className={styles.button} type="submit">{messages.start}</button>
         </form>
     );
 };

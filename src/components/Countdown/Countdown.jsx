@@ -59,14 +59,14 @@ const Countdown = () => {
                 <>
                     <TimerDisplay timeLeft={timeLeft} />
                     {message !== messages.countdownOver && (
-                        <button onClick={handleStop}>Cancel Countdown</button>
+                        <button onClick={handleStop}>{messages.cancelCountdown}</button>
                     )}
                 </>
             )}
             {message === messages.countdownOver && (
                 <div className={styles.time_over_message}>
                     <p>{message}</p>
-                    <button onClick={handleReset}>Start New Countdown</button>
+                    <button onClick={handleReset}>{messages.startNewCountdown}</button>
                 </div>
             )}
         </div>

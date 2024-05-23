@@ -23,8 +23,9 @@
 
 .countdown_form button {
     padding: 10px 20px;
-    background-color: #61dafb;
-    border: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
     color: white;
     font-size: 1em;
     cursor: pointer;
@@ -40,7 +41,7 @@
     font-weight: 700;
 }
 
-.button {
+/* .button {
     border: 1px #fff solid;
     border-radius: 5px;
-}
+} */
